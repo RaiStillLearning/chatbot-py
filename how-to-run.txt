@@ -1,0 +1,6 @@
+uvicorn main:app --reload
+
+sebaiknya download venv dulu 
+"python -m venv venv"
+lalu jika sudah akan seperti ini " .\venv\Scripts\activate"
+jangan lupa download requirement.txt "pip install -r requirement.txt"
