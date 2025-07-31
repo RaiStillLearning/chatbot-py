@@ -12,7 +12,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/chat")
+@app.post("/")
 async def chat(request: Request):
     try:
         body = await request.json()
