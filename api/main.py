@@ -26,3 +26,6 @@ async def chat(request: Request):
     reply = await get_ai_reply(user_input)
     return {"reply": reply}
 
+@app.get("/deploy") 
+async def deploy_route():
+    return {"message": "Chatbot is running successfully!"}
